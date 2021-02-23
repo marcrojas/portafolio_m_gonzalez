@@ -1,0 +1,300 @@
+/* Integración de google font open sans y oswald */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@300;400;700&display=swap');
+/* Incorporación de propiedad scroll-behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Comienzo de nav */
+.navbar-brand {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+}
+.nav-item {
+    font-family: 'Open sans', sans-serif;
+    font-weight: 300;
+}
+.nav-item:hover {
+    background-color:#dd5428;
+    transition: 1s all;
+}
+/* Cierre de nav */
+
+/* Comienzo de aside */
+.imagen-principal {
+   width: 100%;
+}
+
+.imagen-principal .texto-imagen {
+    background-image: url('../img/miguel-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 700px; 
+}
+
+.texto-imagen .yo-soy {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px #000000;
+    padding: 530px 0;
+    text-decoration: underline;  
+}
+
+.texto-imagen .miguel {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000000;
+    margin: -530px 0; 
+}
+/* Cierre de aside */
+
+/* Comienzo de sección sobre mi */
+.sobre-mi h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.sobre-mi .col-6 {
+    font-family: 'Open sans', sans-serif;
+    font-weight: 300;
+}
+/* Cierre de sección sobre mi */
+
+/* Comienzo de sección conocimientos */
+.conocimientos {
+    background-color: #dd5428;
+}
+
+.conocimientos h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.habilidades img {
+    max-width: 125px;   
+}
+/* Cierre de sección conocimientos */
+
+/* Comienzo de sección conocimientos básicos */
+.conocimientos-basicos {
+    background-color: #dd5428;
+}
+
+.conocimientos-basicos h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.habilidades-basicas img {
+    max-width: 125px;
+}
+/* Cierre de sección conocimientos básicos */
+
+/* Comienzo de sección mis trabajos */
+.trabajos h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.card-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.card-text {
+    font-family: 'Open sans', sans-serif;
+    font-weight: 300;
+}
+
+.card-text .btn {
+    font-family: 'Open sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    
+}
+
+.card-text .btn:hover {
+    opacity: 0.7;
+    transition: 0.3s all;
+}
+/* Cierre de sección mis trabajos */
+
+/* Comienzo de modal sección mis trabajos */
+.modal-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+
+modal-footer .btn {
+    font-family: 'Open sans', sans-serif;
+    font-weight: 300;
+}
+/* Cierre de modal sección mis trabajos */
+
+/* Comienzo de sección competencias */
+.competencias h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.nombre h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+/* Cierre de sección competencias */
+
+/* comienzo de consulta de medios para dispositivos hasta 576px */
+@media screen and (min-width: 0px)and (max-width: 576px) {
+.nav-item:hover {
+    cursor: none;
+    background-color: transparent;
+}
+
+.texto-imagen .yo-soy {
+    font-size: 2em;  
+}
+    
+.texto-imagen .miguel {
+    font-size: 2em;      
+}
+
+.sobre-mi h2 {
+    font-size: 1em;
+}
+
+.conocimientos h2 {
+    font-size: 1em;
+}
+ 
+.conocimientos-basicos h2 {
+    font-size: 1em;
+}
+
+.trabajos h2 {
+    font-size: 1em;
+}
+
+.competencias h2 {
+    font-size: 1em;
+}
+
+.nombre h2 {
+    font-size: 1em;
+}
+
+.card-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+}
+
+.card-text .btn {
+    display: none;
+}
+}
+/* Cierre de consulta de medios para dispositivos hasta 576px */
+
+/* Comienzo de consulta de medios para dispositivos que estén entre 577px hasta 768px */
+@media screen and (min-width: 577px)and (max-width: 768px) {
+.nav-item:hover {
+    cursor: none;
+    background-color: transparent;
+}
+
+.texto-imagen .yo-soy {
+    font-size: 2.3em;  
+}
+    
+.texto-imagen .miguel {
+    font-size: 2.3em;      
+}
+
+.sobre-mi h2 {
+    font-size: 1.3em;
+}
+
+.conocimientos h2 {
+    font-size: 1.3em;
+}
+
+.conocimientos-basicos h2 {
+    font-size: 1.3em;
+}
+
+.trabajos h2 {
+    font-size: 1.3em;
+}
+
+.competencias h2 {
+    font-size: 1.3em;
+}
+
+.nombre h2 {
+    font-size: 1.3em;
+}
+
+.card-title {
+    font-size: 1.2em;
+}
+
+.card-text .btn {
+    display: none;
+}
+}
+/* Cierre de consulta de medios para dispositivos que estén entre 577px hasta 768px */
+
+/* Comienzo de consulta de medios para dispositivos que estén entre 769px hasta 992px */
+@media screen and (min-width: 769px)and (max-width: 992px) {
+.texto-imagen .yo-soy {
+    font-size: 2.5em;  
+}
+    
+.texto-imagen .miguel {
+    font-size: 2.5em;      
+}
+
+.sobre-mi h2 {
+    font-size: 1.5em;
+}
+
+.conocimientos h2 {
+    font-size: 1.5em;
+}
+
+.conocimientos-basicos h2 {
+    font-size: 1.5em;
+}
+
+.trabajos h2 {
+    font-size: 1.5em;
+}
+
+.competencias h2 {
+    font-size: 1.5em;
+}
+
+.nombre h2 {
+    font-size: 1.5em;
+}
+.card-title {
+    font-size: 1.5em;
+}
+}
+/* Cierre de consulta de medios para dispositivos que estén entre 769px hasta 992px */
+
+/* Fin de los comentarios */
