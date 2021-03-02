@@ -107,6 +107,10 @@ html {
     text-decoration: underline;
 }
 
+.imagen-diseños {
+    margin-bottom: 3%;
+}
+
 .card-title {
     font-family: 'Oswald', sans-serif;
     font-size: 1.5em;
@@ -121,8 +125,7 @@ html {
 .card-text .btn {
     font-family: 'Open sans', sans-serif;
     font-weight: 300;
-    font-size: 15px;
-    
+    font-size: 15px;   
 }
 
 .card-text .btn:hover {
@@ -198,12 +201,8 @@ modal-footer .btn {
     font-size: 1em;
 }
 
-.imagen-2 {
-    margin-top: 3%;
-}
-
-.imagen-3 {
-    margin-top: 3%;
+.imagen-diseños {
+    margin-bottom: 3%;
 }
 
 .card-title {
@@ -255,12 +254,8 @@ modal-footer .btn {
     font-size: 1.3em;
 }
 
-.imagen-2 {
-    margin-top: 3%;
-}
-
-.imagen-3 {
-    margin-top: 3%;
+.imagen-diseños {
+    margin-bottom: 3%;
 }
 
 .card-title {
@@ -306,9 +301,11 @@ modal-footer .btn {
 .nombre h2 {
     font-size: 1.5em;
 }
-.imagen-3 {
-    margin-top: 3%;
+
+.imagen-diseños {
+    margin-bottom: 3%;
 }
+
 .card-title {
     font-size: 1.5em;
 }
