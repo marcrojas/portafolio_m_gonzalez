@@ -13,8 +13,9 @@ html {
 }
 .nav-item {
     font-family: 'Open sans', sans-serif;
-    font-weight: 300;
+    font-weight: 700; 
 }
+
 .nav-item:hover {
     background-color:#dd5428;
     transition: 1s all;
