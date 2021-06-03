@@ -28,11 +28,11 @@ html {
 }
 
 .imagen-principal .texto-imagen {
-    background-image: url('../img/miguel-2.png');
+    background-image: url('../img/migue.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
-    height: 700px; 
+    height: 900px; 
 }
 
 .texto-imagen .yo-soy {
@@ -59,12 +59,19 @@ html {
     font-size: 2em;
     font-weight: 400;
 }
-
 .sobre-mi .col-6 {
     font-family: 'Open sans', sans-serif;
     font-weight: 300;
 }
-/* Cierre de sección sobre mi */
+
+.sobre-mi .diseño-ux {
+    
+}
+
+span {
+    color: #000000;
+    font-weight: 500;
+}
 
 /* Comienzo de sección conocimientos */
 .conocimientos {
@@ -101,6 +108,10 @@ html {
 /* Cierre de sección conocimientos básicos */
 
 /* Comienzo de sección mis trabajos */
+.trabajos {
+    padding-bottom: 0.5%;
+}
+
 .trabajos h2 {
     font-family: 'Oswald', sans-serif;
     font-size: 2em;
