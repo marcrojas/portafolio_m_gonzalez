@@ -146,13 +146,13 @@ span {
 }
 /* Cierre de sección mis trabajos */
 
-/* Comienzo de modal sección mis trabajos */
+/* Comienzo de modal sección mis trabajos 
 .modal-title {
     font-family: 'Oswald', sans-serif;
     font-size: 1.5em;
     font-weight: 400;
 }
-
+*/
 
 modal-footer .btn {
     font-family: 'Open sans', sans-serif;
@@ -221,9 +221,6 @@ modal-footer .btn {
     font-family: 'Oswald', sans-serif;
     font-size: 1em;
 }
-.card-text .btn {
-    display: none;
-}
 }
 /* Cierre de consulta de medios para dispositivos hasta 576px */
 
@@ -274,9 +271,7 @@ modal-footer .btn {
     font-size: 1.2em;
 }
 
-.card-text .btn {
-    display: none;
-}
+
 }
 /* Cierre de consulta de medios para dispositivos que estén entre 577px hasta 768px */
 
