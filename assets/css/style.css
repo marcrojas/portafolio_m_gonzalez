@@ -1,4 +1,4 @@
-/* Integración de google font open sans y oswald */
+ Integración de google font open sans y oswald */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@300;400;700&display=swap');
 /* Incorporación de propiedad scroll-behavior */
 html {
@@ -64,14 +64,15 @@ html {
     font-weight: 300;
 }
 
-.sobre-mi .diseño-ux {
-    
+.sobre-mi p {
+    margin-bottom: 0;   
 }
 
 span {
     color: #000000;
     font-weight: 500;
 }
+/* Cierre de sección sobre mi */
 
 /* Comienzo de sección conocimientos */
 .conocimientos {
@@ -318,4 +319,4 @@ modal-footer .btn {
 }
 }
 /* Cierre de consulta de medios para dispositivos que estén entre 769px hasta 992px */
-/* Fin de los comentarios */
+/* Fin de los comentarios 
