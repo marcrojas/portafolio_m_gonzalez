@@ -39,16 +39,16 @@ html {
 .texto-imagen .yo-soy {
     font-family: 'Oswald', sans-serif;
     font-size: 3em;
-    font-weight: 300;
+    font-weight: bold;
     text-shadow: 1px 1px 1px #000000;
     padding: 700px 0;
     text-decoration: underline;  
 }
 
-.texto-imagen .miguel {
+.texto-imagen .diseñador {
     font-family: 'Oswald', sans-serif;
     font-size: 3em;
-    font-weight: bold;
+    font-weight: 300;
     text-shadow: 1px 1px 1px #000000;
     margin: -700px 0; 
 }
