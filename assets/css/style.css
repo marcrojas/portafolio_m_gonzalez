@@ -97,6 +97,7 @@ span {
 /* Comienzo de sección habilidades */
 .conocimientos {
     background-color: #dd5428;
+    margin-top: 5% !important;
 }
 
 .conocimientos h2 {
@@ -110,19 +111,19 @@ span {
     max-width: 125px;   
 }
 /* Cierre de sección habilidades */
-.trabajos {
-    margin-bottom: 3%;
+.proyectos {
+    margin-top: 5%;
 }
 
 /* Comienzo de sección portafolio */
-.trabajos h2 {
+.proyectos h2 {
     font-family: 'Oswald', sans-serif;
     font-size: 2em;
     font-weight: bold;
     text-decoration: underline;
 }
 
-.trabajos h3 {
+.proyectos h3 {
     font-family: 'Oswald', sans-serif;
     font-size: 1.6em;
     font-weight: 600;
@@ -153,7 +154,12 @@ span {
     opacity: 0.7;
     transition: 0.3s all;
 }
-/* Cierre de sección mis trabajos */
+
+.trabajos h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6em;
+    font-weight: bold;
+}
 
 /* Comienzo de modal sección mis trabajos 
 .modal-title {
