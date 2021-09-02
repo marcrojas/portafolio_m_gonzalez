@@ -21,6 +21,11 @@ html {
     background-color:#dd5428;
     transition: 1s all;
 }
+
+.nav-item a:hover {
+    color:  #ffffff !important;
+}
+
 /* Cierre de nav */
 
 /* Comienzo de aside */
