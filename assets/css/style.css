@@ -75,7 +75,21 @@ span {
 }
 /* Cierre de sección sobre mi */
 
-/* Comienzo de sección conocimientos */
+/* Comienzo de sección competencias */
+.competencias h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.nombre h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+/* Cierre de sección competencias */
+
+/* Comienzo de sección habilidades */
 .conocimientos {
     background-color: #dd5428;
 }
@@ -90,30 +104,12 @@ span {
 .habilidades img {
     max-width: 125px;   
 }
-/* Cierre de sección conocimientos */
-
-/* Comienzo de sección conocimientos básicos */
-.conocimientos-basicos {
-    background-color: #dd5428;
-}
-
-.conocimientos-basicos h2 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 2em;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-.habilidades-basicas img {
-    max-width: 125px;
-}
-/* Cierre de sección conocimientos básicos */
-
-/* Comienzo de sección mis trabajos */
+/* Cierre de sección habilidades */
 .trabajos {
-    padding-bottom: 0.5%;
+    margin-bottom: 3%;
 }
 
+/* Comienzo de sección portafolio */
 .trabajos h2 {
     font-family: 'Oswald', sans-serif;
     font-size: 2em;
@@ -167,20 +163,6 @@ modal-footer .btn {
     font-weight: 300;
 }
 /* Cierre de modal sección mis trabajos */
-
-/* Comienzo de sección competencias */
-.competencias h2 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 2em;
-    font-weight: 400;
-}
-
-.nombre h2 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 2em;
-    font-weight: bold;
-}
-/* Cierre de sección competencias */
 
 /* comienzo de consulta de medios para dispositivos hasta 576px */
 @media screen and (min-width: 0px)and (max-width: 576px) {
