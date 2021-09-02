@@ -121,8 +121,14 @@ span {
     text-decoration: underline;
 }
 
+.trabajos h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
 .imagen-diseños {
-    margin-bottom: 3%;
+    margin: 3% 0;
 }
 
 .card-title {
@@ -193,6 +199,10 @@ modal-footer .btn {
 
 .sobre-mi h2 {
     font-size: 1em;
+}
+
+.conocimientos .habilidades-basicas {
+    text-align: center;
 }
 
 .conocimientos h2 {
