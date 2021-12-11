@@ -155,6 +155,14 @@ span {
     transition: 0.3s all;
 }
 
+.trabajos h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6em;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .trabajos h3 {
     font-family: 'Oswald', sans-serif;
     font-size: 1.6em;
