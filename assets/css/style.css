@@ -108,8 +108,10 @@ span {
 }
 
 .habilidades img {
-    max-width: 125px;   
+    width: 100%;
+    max-width: 175px; 
 }
+
 /* Cierre de sección habilidades */
 .proyectos {
     margin-top: 5%;
@@ -183,8 +185,7 @@ modal-footer .btn {
 }
 /* Cierre de modal sección mis trabajos */
 
-/* comienzo de consulta de medios para dispositivos hasta 576px */
-@media screen and (min-width: 0px)and (max-width: 576px) {
+@media (min-width: 576px) {
 .nav-item:hover {
     cursor: none;
     background-color: transparent;
@@ -237,8 +238,8 @@ modal-footer .btn {
 }
 /* Cierre de consulta de medios para dispositivos hasta 576px */
 
-/* Comienzo de consulta de medios para dispositivos que estén entre 577px hasta 767px */
-@media screen and (min-width: 577px)and (max-width: 767px) {
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
 .nav-item:hover {
     cursor: none;
     background-color: transparent;
@@ -283,13 +284,11 @@ modal-footer .btn {
 .card-title {
     font-size: 1.2em;
 }
-
-
 }
 /* Cierre de consulta de medios para dispositivos que estén entre 577px hasta 768px */
 
-/* Comienzo de consulta de medios para dispositivos que estén entre 768px hasta 992px */
-@media screen and (min-width: 768px)and (max-width: 992px) {
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
 .texto-imagen .yo-soy {
     font-size: 2.5em;  
 }
