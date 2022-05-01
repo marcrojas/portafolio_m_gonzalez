@@ -185,6 +185,7 @@ modal-footer .btn {
 }
 /* Cierre de modal sección mis trabajos */
 
+/* COMIENZO CONSULTA DE MEDIOS CELULARES */
 @media (min-width: 576px) {
 .nav-item:hover {
     cursor: none;
@@ -236,9 +237,9 @@ modal-footer .btn {
     font-size: 1em;
 }
 }
-/* Cierre de consulta de medios para dispositivos hasta 576px */
+/* CIERRE CONSULTA DE MEDIOS CELULARES */
 
-/* Medium devices (tablets, 768px and up)*/
+/* MEDIUM DEVICES (tablets, 768px and up)*/
 @media (min-width: 768px) {
 .nav-item:hover {
     cursor: none;
@@ -285,9 +286,9 @@ modal-footer .btn {
     font-size: 1.2em;
 }
 }
-/* Cierre de consulta de medios para dispositivos que estén entre 577px hasta 768px */
+/* CIERRE MEDIUM DEVICES 768px */
 
-/*// Large devices (desktops, 992px and up)*/
+/* LARGE DEVICES (desktops, 992px and up)*/
 @media (min-width: 992px) {
 .texto-imagen .yo-soy {
     font-size: 2.5em;  
@@ -329,5 +330,4 @@ modal-footer .btn {
     font-size: 1.5em;
 }
 }
-/* Cierre de consulta de medios para dispositivos que estén entre 769px hasta 992px */
-/* Fin de los comentarios 
+/* CIERRE LARGUE DEVICES */
